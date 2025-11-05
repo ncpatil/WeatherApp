@@ -22,7 +22,7 @@ function updateInfo(temp, location, timenDate, contn, iconUrl) {
 async function fetchData(target) {
   try {
     const respone = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=1461f63aefb54cd7a3e20450252409&q=${target}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=1461f63aefb54cd7a3e20450252409&q=${target}&aqi=no`
     );
     const data = await respone.json();
     console.log(data);
