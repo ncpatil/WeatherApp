@@ -36,18 +36,18 @@ A simple and responsive weather application built using **JavaScript**, **HTML**
 
 ⚙️ Setup Instructions
 
-1️⃣ Clone the repository
+**Clone the repository**
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
 
-2️⃣ Add WeatherAPI Key
+- Add WeatherAPI Key
 
 Replace your API key inside script.js: const response = await fetch(
   `https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${target}&aqi=no`
 );
 
-3️⃣ Run locally
+- Run locally
 
 Just open index.html in any browser.
 
