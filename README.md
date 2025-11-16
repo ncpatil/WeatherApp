@@ -23,11 +23,11 @@ A simple and responsive weather application built using **JavaScript**, **HTML**
 ---
 
 📂 Project Structure
-  /Weather-App
-    index.html
-    style.css
-    script.js
-    assets/
+  /Weather-App/
+    -index.html
+    -style.css
+    -script.js
+    -assets/
 
 ---
 
